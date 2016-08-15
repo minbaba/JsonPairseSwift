@@ -13,6 +13,14 @@
 		7DDD3FC91CEC093F0036AEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDD3FC71CEC093F0036AEDB /* Main.storyboard */; };
 		7DDD3FD41CEC093F0036AEDB /* JsonPairseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD3FD31CEC093F0036AEDB /* JsonPairseSwiftTests.swift */; };
 		7DDD3FDF1CEC093F0036AEDB /* JsonPairseSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD3FDE1CEC093F0036AEDB /* JsonPairseSwiftUITests.swift */; };
+		7DDD3FED1CEC0A530036AEDB /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD3FEC1CEC0A530036AEDB /* RxBlocking.framework */; };
+		7DDD3FEF1CEC0A5A0036AEDB /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD3FEE1CEC0A5A0036AEDB /* RxCocoa.framework */; };
+		7DDD3FF41CEC15910036AEDB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD3FF21CEC0A680036AEDB /* SwiftyJSON.framework */; };
+		7DDD3FF51CEC15910036AEDB /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD3FF21CEC0A680036AEDB /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7DDD3FF61CEC15910036AEDB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD3FF01CEC0A610036AEDB /* RxSwift.framework */; };
+		7DDD3FF71CEC15910036AEDB /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD3FF01CEC0A610036AEDB /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7DDD3FF91CEC15910036AEDB /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD3FEE1CEC0A5A0036AEDB /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7DDD3FFB1CEC15910036AEDB /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD3FEC1CEC0A530036AEDB /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7DDD3FFC1CEC15910036AEDB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7DDD3FF91CEC15910036AEDB /* RxCocoa.framework in Embed Frameworks */,
+				7DDD3FF71CEC15910036AEDB /* RxSwift.framework in Embed Frameworks */,
+				7DDD3FF51CEC15910036AEDB /* SwiftyJSON.framework in Embed Frameworks */,
+				7DDD3FFB1CEC15910036AEDB /* RxBlocking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7DDD3FBE1CEC093F0036AEDB /* JsonPairseSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonPairseSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDD3FC11CEC093F0036AEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +70,10 @@
 		7DDD3FDA1CEC093F0036AEDB /* JsonPairseSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonPairseSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDD3FDE1CEC093F0036AEDB /* JsonPairseSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonPairseSwiftUITests.swift; sourceTree = "<group>"; };
 		7DDD3FE01CEC093F0036AEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDD3FEC1CEC0A530036AEDB /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
+		7DDD3FEE1CEC0A5A0036AEDB /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		7DDD3FF01CEC0A610036AEDB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		7DDD3FF21CEC0A680036AEDB /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +81,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDD3FEF1CEC0A5A0036AEDB /* RxCocoa.framework in Frameworks */,
+				7DDD3FF61CEC15910036AEDB /* RxSwift.framework in Frameworks */,
+				7DDD3FED1CEC0A530036AEDB /* RxBlocking.framework in Frameworks */,
+				7DDD3FF41CEC15910036AEDB /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +108,10 @@
 		7DDD3FB51CEC093F0036AEDB = {
 			isa = PBXGroup;
 			children = (
+				7DDD3FF21CEC0A680036AEDB /* SwiftyJSON.framework */,
+				7DDD3FF01CEC0A610036AEDB /* RxSwift.framework */,
+				7DDD3FEE1CEC0A5A0036AEDB /* RxCocoa.framework */,
+				7DDD3FEC1CEC0A530036AEDB /* RxBlocking.framework */,
 				7DDD3FC01CEC093F0036AEDB /* JsonPairseSwift */,
 				7DDD3FD21CEC093F0036AEDB /* JsonPairseSwiftTests */,
 				7DDD3FDD1CEC093F0036AEDB /* JsonPairseSwiftUITests */,
@@ -132,6 +169,7 @@
 				7DDD3FBA1CEC093F0036AEDB /* Sources */,
 				7DDD3FBB1CEC093F0036AEDB /* Frameworks */,
 				7DDD3FBC1CEC093F0036AEDB /* Resources */,
+				7DDD3FFC1CEC15910036AEDB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -387,6 +425,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JsonPairseSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miaoqu.JsonPairseSwift;
@@ -399,6 +441,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JsonPairseSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miaoqu.JsonPairseSwift;
@@ -475,6 +521,7 @@
 				7DDD3FE51CEC093F0036AEDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DDD3FE61CEC093F0036AEDB /* Build configuration list for PBXNativeTarget "JsonPairseSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +530,7 @@
 				7DDD3FE81CEC093F0036AEDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DDD3FE91CEC093F0036AEDB /* Build configuration list for PBXNativeTarget "JsonPairseSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +539,7 @@
 				7DDD3FEB1CEC093F0036AEDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
